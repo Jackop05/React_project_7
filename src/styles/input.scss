@@ -1,0 +1,43 @@
+/* npx tailwindcss -i ./src/styles/input.scss -o ./src/styles/output.css --watch */
+
+body {
+    @apply p-0 m-0 bg-white flex flex-col justify-center h-fvh
+}
+
+
+
+.App {
+    @apply bg-darker w-500 mx-auto rounded-xl py-30 px-20
+}
+
+.game {
+    @apply bg-gray rounded-xl p-35 text-center
+}
+
+.description-title {
+    @apply text-dark text-25 font-bold mb-8
+}
+
+.description {
+    @apply text-13 text-darkerGray max-w-300 mx-auto mb-30
+}
+
+.hero {
+    @apply mx-35
+}
+
+.dices {
+    @apply grid grid-cols-5 gap-20 mb-25
+}
+
+.dice {
+    @apply bg-white w-35 h-35 text-dark rounded-md flex flex-col justify-center cursor-pointer 
+}
+
+.roll-btn {
+    @apply bg-purple px-20 py-5 rounded-xl w-90 text-white font-bold mx-auto cursor-pointer 
+}
+
+.green {
+    @apply bg-green
+}
